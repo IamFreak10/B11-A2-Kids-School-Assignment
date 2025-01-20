@@ -4,6 +4,125 @@
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-  font-weight:400;
+  font-weight: 400;
   font-style: normal;
+}
+
+/* Shared Styles */
+.c-btn{
+    font-size: 20px;
+font-weight: 700;
+    color: aliceblue;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background: black;
+}
+.o {
+    color: orange;
+}
+.s {
+    color: skyblue;
+}
+.f {
+    color: rgb(5, 212, 223);
+}
+.a {
+    color: rgb(93, 88, 239);
+}
+/*Header BG */
+.headder{
+    background-color: rgb(247, 247, 247);
+}
+/* Navbar */
+.scl-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navbar {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+   
+}
+
+.option > div > a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#o-btn {
+    font-size: 20px;
+font-weight: 700;
+color: aliceblue;
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+}
+
+.option {
+    display: flex;
+    gap: 32px;
+}
+/* Banner Part */
+.title{
+    font-weight: 700;
+}
+.b-d{
+    font-weight: 400;
+}
+.b-contents{
+    margin-top: 122px;
+    margin-bottom: 122px;
+    width: 640px;
+    height: 331px;
+}
+.banner-container{
+    border: 1px solid tan;
+   /* display: grid;
+   grid-template-columns: repeat(2,1fr); */
+   display: flex;
+   justify-content: center;
+
+}
+/* Media Query for Small Screens */
+@media screen and (max-width:576px) {
+    
+    .option, .btn, .scl {
+        display: none;
+    }
+    .scl-logo {
+        display: flex;
+    }
+    .menu-icon {
+        display: flex; 
+        width: 30px;
+        height: 30px;
+       
+    }
+    .scl-logo img {
+        width: 50px; 
+        height: auto;
+    }
+    .navbar{
+        justify-content: space-between;
+        border-bottom: 1px solid orange;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
 }
