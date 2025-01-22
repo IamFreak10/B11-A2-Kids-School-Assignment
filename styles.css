@@ -278,6 +278,12 @@ background: rgb(255, 255, 255);
 
 }
 
+.f-d{
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-bottom: 15px; */
+    
+}
 .f-des{
     
     font-size: 20px;
@@ -377,6 +383,5 @@ height: 413px;
        margin-top: -130px;
        
     }
-
-    
+   
 }
